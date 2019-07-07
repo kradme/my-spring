@@ -1,5 +1,6 @@
 package cn.lang.spring.framework;
 
+import cn.lang.spring.framework.context.MyApplicationContext;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -7,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MySpringApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MySpringApplication.class, args);
+        SpringApplication.run(MyApplicationContext.class, args);
     }
 
 }
